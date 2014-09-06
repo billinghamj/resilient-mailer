@@ -1,6 +1,7 @@
 # resilient-mailer
 
-`resilient-mailer` provides fault-tolerant email delivery, through multiple providers.
+`resilient-mailer` provides fault-tolerant email delivery, using failover email
+providers.
 
 [![NPM Version](https://img.shields.io/npm/v/resilient-mailer.svg?style=flat)](https://www.npmjs.org/package/resilient-mailer)
 [![Build Status](https://img.shields.io/travis/billinghamj/resilient-mailer.svg?style=flat)](https://travis-ci.org/billinghamj/resilient-mailer)
