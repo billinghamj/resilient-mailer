@@ -1,0 +1,28 @@
+{
+	"name": "resilient-mailer",
+	"version": "0.1.0",
+	"description": "Provides fault-tolerant email delivery",
+
+	"license": "MIT",
+	"author": "James Billingham <james@jamesbillingham.com> (http://jamesbillingham.com)",
+
+	"main": "lib/resilient-mailer.js",
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/billinghamj/resilient-mailer.git"
+	},
+
+	"scripts": {
+		"test": "tape test/*.js",
+		"test-travis": "istanbul cover test/*.js --report lcovonly"
+	},
+
+	"dependencies": {
+	},
+
+	"devDependencies": {
+		"tape": "~2.13.3",
+		"istanbul": "~0.3.2"
+	}
+}
