@@ -1,5 +1,5 @@
 var test = require('tape');
-var ResilientMailer = require('../lib/mailgun-provider');
+var ResilientMailer = require('../lib/resilient-mailer');
 
 test('correct types exported', function (t) {
 	t.equal(typeof ResilientMailer, 'function');
