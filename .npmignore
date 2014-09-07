@@ -1,2 +1,5 @@
 .git*
+coverage/
 test/
+.DS_Store
+.travis.yml
