@@ -40,7 +40,7 @@ var ResilientMailer = require('resilient-mailer');
 var mailer = new ResilientMailer();
 ```
 
-Register providers to it:
+Register providers to it: ([see below](#providers))
 
 ```js
 var provider; // email provider instance
