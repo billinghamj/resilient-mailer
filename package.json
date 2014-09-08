@@ -1,6 +1,6 @@
 {
 	"name": "resilient-mailer",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Provides fault-tolerant email delivery",
 
 	"license": "MIT",
