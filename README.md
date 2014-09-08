@@ -136,6 +136,16 @@ There may be cases where it is desired that, even after all providers have
 failed, emails should be attempted again. This would allow for a number of
 retries to be designated (default 1), and a time period to wait between tries.
 
+### Provider Result Reporting
+
+Many providers only indicate that a message has been successfully queued - not
+that the message has been sent. In some cases, the message may fail to be sent
+after being accepted. Presently, these events are unknown to the mailer system.
+
+A solution could be to set up callback URLs from the providers back to the
+system, allowing for the delayed notification of failures. The message would
+then be requeued.
+
 ## Support
 
 Please open an issue on this repository.
