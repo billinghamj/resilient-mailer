@@ -58,7 +58,10 @@ var message = {
 	htmlBody: '<p>Seems to be working!</p>'
 };
 
-mailer.send(message);
+mailer.send(message, function (error) {
+	if (error)
+		console.log('All providers failed - ' + error.message);
+});
 ```
 
 ## Testing
