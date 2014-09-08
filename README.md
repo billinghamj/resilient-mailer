@@ -3,9 +3,9 @@
 `resilient-mailer` provides fault-tolerant email delivery, using failover email
 providers.
 
-[![NPM Version](https://img.shields.io/npm/v/resilient-mailer.svg?style=flat)](https://www.npmjs.org/package/resilient-mailer)
-[![Build Status](https://img.shields.io/travis/billinghamj/resilient-mailer.svg?style=flat)](https://travis-ci.org/billinghamj/resilient-mailer)
-[![Coverage Status](https://img.shields.io/coveralls/billinghamj/resilient-mailer.svg?style=flat)](https://coveralls.io/r/billinghamj/resilient-mailer)
+[![NPM Version](https://img.shields.io/npm/v/resilient-mailer.svg?style=flat)](//www.npmjs.org/package/resilient-mailer)
+[![Build Status](https://img.shields.io/travis/billinghamj/resilient-mailer.svg?style=flat)](//travis-ci.org/billinghamj/resilient-mailer)
+[![Coverage Status](https://img.shields.io/coveralls/billinghamj/resilient-mailer.svg?style=flat)](//coveralls.io/r/billinghamj/resilient-mailer)
 
 ```js
 var ResilientMailer = require('resilient-mailer');
@@ -83,10 +83,10 @@ $ npm test
 For any email service you want to use, you need to use a provider designed for
 use with it. This is a list of known providers:
 
-- [Mailgun](https://github.com/billinghamj/resilient-mailer-mailgun)
-- [Mailjet](https://github.com/billinghamj/resilient-mailer-mailjet)
-- [Mandrill](https://github.com/billinghamj/resilient-mailer-mandrill)
-- [SendGrid](https://github.com/billinghamj/resilient-mailer-sendgrid)
+- [Mailgun](//github.com/billinghamj/resilient-mailer-mailgun)
+- [Mailjet](//github.com/billinghamj/resilient-mailer-mailjet)
+- [Mandrill](//github.com/billinghamj/resilient-mailer-mandrill)
+- [SendGrid](//github.com/billinghamj/resilient-mailer-sendgrid)
 
 ## Future Improvements
 
