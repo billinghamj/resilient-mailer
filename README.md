@@ -146,6 +146,10 @@ A solution could be to set up callback URLs from the providers back to the
 system, allowing for the delayed notification of failures. The message would
 then be requeued.
 
+### Attachments
+
+There is currently no support for attachments.
+
 ## Support
 
 Please open an issue on this repository.
