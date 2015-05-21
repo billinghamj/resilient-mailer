@@ -87,6 +87,7 @@ use with it. This is a list of known providers:
 - [Mailjet](//github.com/billinghamj/resilient-mailer-mailjet)
 - [Mandrill](//github.com/billinghamj/resilient-mailer-mandrill)
 - [SendGrid](//github.com/billinghamj/resilient-mailer-sendgrid)
+- [AWS SES](//github.com/cuvva/resilient-mailer-ses)
 
 ## Future Improvements
 
